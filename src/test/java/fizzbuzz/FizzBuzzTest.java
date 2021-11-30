@@ -32,7 +32,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void laRespuestaA5EsFizz() {
+    void laRespuestaA5EsBuzz() {
         String respuesta = juego.responder(5);
         assertThat(respuesta, equalTo("Buzz"));
     }
@@ -50,7 +50,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void laRespuestaA10EsFizz() {
+    void laRespuestaA10EsBuzz() {
         String respuesta = juego.responder(10);
         assertThat(respuesta, equalTo("Buzz"));
     }
@@ -62,31 +62,31 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void laRespuestaA13EsFizz() {
+    void laRespuestaA13Es13() {
         String respuesta = juego.responder(13);
         assertThat(respuesta, equalTo("13"));
     }
 
     @Test
-    void laRespuestaA15EsFizz() {
+    void laRespuestaA15EsFizzBuzz() {
         String respuesta = juego.responder(15);
         assertThat(respuesta, equalTo("FizzBuzz"));
     }
 
     @Test
-    void laRespuestaA20EsFizz() {
+    void laRespuestaA20EsBuzz() {
         String respuesta = juego.responder(20);
         assertThat(respuesta, equalTo("Buzz"));
     }
 
     @Test
-    void laRespuestaA30EsFizz() {
+    void laRespuestaA30EsFizzBuzz() {
         String respuesta = juego.responder(30);
         assertThat(respuesta, equalTo("FizzBuzz"));
     }
 
     @Test
-    void laRespuestaA45EsFizz() {
+    void laRespuestaA45EsFizzBuzz() {
         String respuesta = juego.responder(45);
         assertThat(respuesta, equalTo("FizzBuzz"));
     }
